@@ -15,39 +15,52 @@
    </div>
     <div id="lyk_bottom">
         <a id="lyk_log_pic" href="../index.php" name="top"><img src="../images/lyk_main_logo.jpg" alt="website logo"/></a>
-        <div id="lyk_cart_title">
-            产品分类
-            <ul id="lyk_cart">
-                <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
-                     <a href="{$nav.url}" {if $nav.opennew eq 1}target="_blank" {/if}>{$nav.name}</a>
-                <!-- {/foreach} -->
-            </ul>
-        </div>
+        <div id="lyk_cart_title" onmouseover="showCategory()">产品分类</div>
         <form id="lyk_search" method="get" action="search.php">
             <ul id="lyk_search_dir">
                 <!--{foreach name=list from=$lyk_category_list item=nav}-->
                      <li onclick="addId(this)">{$nav}</li>
                 <!--{/foreach}-->
             </ul>
-            <script type="text/javascript">
-                {literal}
-                    <!--
-                    var lis = document.getElementById("lyk_search_dir").getElementsByTagName("li");
-                    lis[0].id = "lyk_search_dir_on";
-                    function addId(e)
-                    {
-                        for ( var i=0; i<lis.length; i++ )
-                        {
-                            lis[i].id = "";
-                        }
-                        e.id = "lyk_search_dir_on";
-                    }
-                    -->
-                    {/literal}
-            </script>
             <input name="keywords" type="text" id="lyk_keywords" value="{$search_keywords|escape}"/>
             <input name="imageField" type="submit" id="lyk_submit" value="搜索" />
         </form>
+        <ul id="lyk_cart">
+            <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
+                 <a href="{$nav.url}" {if $nav.opennew eq 1}target="_blank" {/if}>{$nav.name}</a>
+            <!-- {/foreach} -->
+        </ul>
     </div>
-
 </div>
+<script type="text/javascript">
+    {literal}
+        <!--
+        var lis = document.getElementById("lyk_search_dir").getElementsByTagName("li");
+        var lyk_cart = document.getElementById("lyk_cart");
+
+        lis[0].id = "lyk_search_dir_on";
+        function addId(e)
+        {
+            for ( var i=0; i<lis.length; i++ )
+            {
+                lis[i].id = "";
+            }
+            e.id = "lyk_search_dir_on";
+        }
+
+        function showCategory()
+        {
+            var lyk_cart = document.getElementById("lyk_cart");
+            lyk_cart.style.display = 'block';
+        }
+
+        function hideCategory()
+        {
+            var lyk_cart = document.getElementById("lyk_cart");
+            lyk_cart.style.display = 'none';
+        }
+
+        document.body.onclick = hideCategory;
+        -->
+    {/literal}
+</script>

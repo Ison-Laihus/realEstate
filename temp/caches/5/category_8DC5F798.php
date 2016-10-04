@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:61:"D:/xampp/htdocs/ecshop/realEstate/themes/default/category.dwt";i:1;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/page_header.lbi";i:2;s:68:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/ur_here.lbi";i:3;s:65:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/cart.lbi";i:4;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/category_tree.lbi";i:5;s:68:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/history.lbi";i:6;s:75:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/recommend_best.lbi";i:7;s:71:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/goods_list.lbi";i:8;s:66:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/pages.lbi";i:9;s:65:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/help.lbi";i:10;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475569939;s:8:"maketime";i:1475566339;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:61:"D:/xampp/htdocs/ecshop/realEstate/themes/default/category.dwt";i:1;s:76:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/lyk_page_header.lbi";i:2;s:68:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/ur_here.lbi";i:3;s:65:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/cart.lbi";i:4;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/category_tree.lbi";i:5;s:68:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/history.lbi";i:6;s:75:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/recommend_best.lbi";i:7;s:71:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/goods_list.lbi";i:8;s:66:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/pages.lbi";i:9;s:65:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/help.lbi";i:10;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475573780;s:8:"maketime";i:1475570180;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -11,72 +11,62 @@
 <link href="themes/default/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/common.js"></script><script type="text/javascript" src="js/global.js"></script><script type="text/javascript" src="js/compare.js"></script></head>
 <body>
-<script type="text/javascript">
-var process_request = "正在处理您的请求...";
-</script>
-<div class="block clearfix">
- <div class="f_l"><a href="index.php" name="top"><img src="themes/default/images/logo.gif" /></a></div>
- <div class="f_r log">
-   <ul>
-   <li class="userInfo">
-   <script type="text/javascript" src="js/transport.js"></script><script type="text/javascript" src="js/utils.js"></script>   <font id="ECS_MEMBERZONE">554fcae493e564ee0dc75bdf2ebf94camember_info|a:1:{s:4:"name";s:11:"member_info";}554fcae493e564ee0dc75bdf2ebf94ca </font>
-   </li>
-      <li id="topNav" class="clearfix">
-                <a href="flow.php" >查看购物车</a>
-                         |
-                            <a href="pick_out.php" >选购中心</a>
-                         |
-                            <a href="tag_cloud.php" >标签云</a>
-                         |
-                            <a href="quotation.php" >报价单</a>
-                    <div class="topNavR"></div>
-   </li>
-      </ul>
- </div>
-</div>
-<div  class="blank"></div>
-<div id="mainNav" class="clearfix">
- <a href="index.php">首页<span></span></a>
-     <a href="category.php?id=3"   class="cur">GSM手机<span></span></a>
-      <a href="category.php?id=5"  >双模手机<span></span></a>
-      <a href="category.php?id=6"  >手机配件<span></span></a>
-      <a href="group_buy.php"  >团购商品<span></span></a>
-      <a href="activity.php"  >优惠活动<span></span></a>
-      <a href="snatch.php"  >夺宝奇兵<span></span></a>
-      <a href="auction.php"  >拍卖活动<span></span></a>
-      <a href="exchange.php"  >积分商城<span></span></a>
-      <a href="message.php"  >留言板<span></span></a>
-      <a href="http://bbs.ecshop.com/" target="_blank"  >EC论坛<span></span></a>
+<div id="lyk_header">
+    <div id="lyk_top">
+        <div id="lyk_top_inner">
+            <div id="lyk_top_left">554fcae493e564ee0dc75bdf2ebf94camember_info_wel|a:1:{s:4:"name";s:15:"member_info_wel";}554fcae493e564ee0dc75bdf2ebf94ca </div>
+             <div id="lyk_top_right">554fcae493e564ee0dc75bdf2ebf94camember_info|a:1:{s:4:"name";s:11:"member_info";}554fcae493e564ee0dc75bdf2ebf94ca</div>
+             <div id="lyk_top_center">
+                                                    <a href="flow.php" >查看购物车</a>
+                                     <a href="pick_out.php" >选购中心</a>
+                                     <a href="tag_cloud.php" >标签云</a>
+                                     <a href="quotation.php" >报价单</a>
+                                               </div>
+        </div>
    </div>
-<div id="search"  class="clearfix">
-  <div class="keys f_l">
-   <script type="text/javascript">
-    
-    <!--
-    function checkSearchForm()
-    {
-        if(document.getElementById('keyword').value)
-        {
-            return true;
-        }
-        else
-        {
-            alert("请输入搜索关键词！");
-            return false;
-        }
-    }
-    -->
-    
-    </script>
-      </div>
-  <form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm()" class="f_r"  style="_position:relative; top:5px;">
-   <select name="category" id="category" class="B_input">
-      <option value="0">所有分类</option>
-      <option value="6" >手机配件</option><option value="8" >&nbsp;&nbsp;&nbsp;&nbsp;耳机</option><option value="9" >&nbsp;&nbsp;&nbsp;&nbsp;电池</option><option value="11" >&nbsp;&nbsp;&nbsp;&nbsp;读卡器和内存卡</option><option value="7" >&nbsp;&nbsp;&nbsp;&nbsp;充电器</option><option value="1" >手机类型</option><option value="5" >&nbsp;&nbsp;&nbsp;&nbsp;双模手机</option><option value="2" >&nbsp;&nbsp;&nbsp;&nbsp;CDMA手机</option><option value="3" >&nbsp;&nbsp;&nbsp;&nbsp;GSM手机</option><option value="4" >&nbsp;&nbsp;&nbsp;&nbsp;3G手机</option><option value="12" >充值卡</option><option value="13" >&nbsp;&nbsp;&nbsp;&nbsp;小灵通/固话充值卡</option><option value="14" >&nbsp;&nbsp;&nbsp;&nbsp;移动手机充值卡</option><option value="15" >&nbsp;&nbsp;&nbsp;&nbsp;联通手机充值卡</option>    </select>
-   <input name="keywords" type="text" id="keyword" value="" class="B_input" style="width:110px;"/>
-   <input name="imageField" type="submit" value="" class="go" style="cursor:pointer;" />
-   <a href="search.php?act=advanced_search">高级搜索</a>
-   </form>
+    <div id="lyk_bottom">
+        <a id="lyk_log_pic" href="index.php" name="top"><img src="themes/default/images/lyk_main_logo.jpg" alt="website logo"/></a>
+        <div id="lyk_cart_title">
+            产品分类
+            <ul id="lyk_cart">
+                                     <a href="category.php?id=3" >GSM手机</a>
+                                     <a href="category.php?id=5" >双模手机</a>
+                                     <a href="category.php?id=6" >手机配件</a>
+                                     <a href="group_buy.php" >团购商品</a>
+                                     <a href="activity.php" >优惠活动</a>
+                                     <a href="snatch.php" >夺宝奇兵</a>
+                                     <a href="auction.php" >拍卖活动</a>
+                                     <a href="exchange.php" >积分商城</a>
+                                     <a href="message.php" >留言板</a>
+                                     <a href="http://bbs.ecshop.com/" target="_blank" >EC论坛</a>
+                            </ul>
+        </div>
+        <form id="lyk_search" method="get" action="search.php">
+            <ul id="lyk_search_dir">
+                                     <li onclick="addId(this)">手机类型</li>
+                                     <li onclick="addId(this)">手机配件</li>
+                                     <li onclick="addId(this)">充值卡</li>
+                            </ul>
+            <script type="text/javascript">
+                
+                    <!--
+                    var lis = document.getElementById("lyk_search_dir").getElementsByTagName("li");
+                    lis[0].id = "lyk_search_dir_on";
+                    function addId(e)
+                    {
+                        for ( var i=0; i<lis.length; i++ )
+                        {
+                            lis[i].id = "";
+                        }
+                        e.id = "lyk_search_dir_on";
+                    }
+                    -->
+                    
+            </script>
+            <input name="keywords" type="text" id="lyk_keywords" value=""/>
+            <input name="imageField" type="submit" id="lyk_submit" value="搜索" />
+        </form>
+    </div>
 </div>
 <div class="block box">
  <div id="ur_here">
@@ -87,7 +77,7 @@ var process_request = "正在处理您的请求...";
   
   <div class="AreaL">
     
-<div class="cart" id="ECS_CARTINFO">
+<script type="text/javascript" src="js/transport.js"></script><div class="cart" id="ECS_CARTINFO">
  554fcae493e564ee0dc75bdf2ebf94cacart_info|a:1:{s:4:"name";s:9:"cart_info";}554fcae493e564ee0dc75bdf2ebf94ca</div>
 <div class="blank5"></div>
 <div class="box">

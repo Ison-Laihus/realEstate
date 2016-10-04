@@ -12,9 +12,10 @@ Template Type: type_0
 /* ==================
 修改样式： lyk
 ==================== */
+/*重改头部区域page_header ---------> lyk_page_header */
 #lyk_header{
     width: 100%;
-    height: 200px;
+    height: auto;
 }
 #lyk_top{
     width: 100%;
@@ -73,8 +74,9 @@ Template Type: type_0
 
 #lyk_bottom{
     width: 1200px;
-    height: 160px;
+    height: auto;
     margin: 0 auto;
+    overflow: auto;
 }
 #lyk_log_pic{
     float: left;
@@ -84,7 +86,7 @@ Template Type: type_0
     height: 90px;
 }
 #lyk_cart_title{
-    position: relative;
+    /*position: relative;*/
     float: left;
     margin-left: 30px;
     width: 160px;
@@ -96,34 +98,7 @@ Template Type: type_0
     line-height: 40px;
     color: #fff;
 }
-#lyk_cart_title:hover #lyk_cart{
-    display: block;
-}
-#lyk_cart{
-    width: 1000px;
-    position: absolute;
-    left: 0;
-    top: 40px;
-    display: none;
-}
-#lyk_cart a{
-    display: block;
-    float: left;
-    text-decoration: none;
-    font-weight: bold;
-    width: 160px;
-    height: 40px;
-    cursor: pointer;
-    text-align: center;
-    line-height: 40px;
-    background-color: #f1bfc0;
-    border: 1px dotted #cc4444;
-    color: #FE596A;
-}
-#lyk_cart a:hover{
-    background-color: #8b4513;
-    color: #fff;
-}
+
 #lyk_search{
     float: left;
     margin-left: 20px;
@@ -151,6 +126,7 @@ Template Type: type_0
 }
 
 #lyk_keywords{
+    outline: none;
     width: 450px;
     height: 20px;
     padding: 5px 10px;
@@ -166,6 +142,30 @@ Template Type: type_0
     color: #fff;
     font-weight: bold;
     cursor: pointer;
+}
+
+#lyk_cart{
+    clear: left;
+    width: 1000px;
+    margin-left: 120px;
+    display: none;
+}
+#lyk_cart a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f1bfc0;
+    border: 1px dotted #cc4444;
+    color: #FE596A;
+}
+#lyk_cart a:hover{
+    background-color: #8b4513;
+    color: #fff;
 }
 
 

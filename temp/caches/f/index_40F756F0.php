@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:21:{i:0;s:58:"D:/xampp/htdocs/ecshop/realEstate/themes/default/index.dwt";i:1;s:76:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/lyk_page_header.lbi";i:2;s:65:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/cart.lbi";i:3;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/category_tree.lbi";i:4;s:66:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/top10.lbi";i:5;s:75:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/promotion_info.lbi";i:6;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/order_query.lbi";i:7;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/invoice_query.lbi";i:8;s:70:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/vote_list.lbi";i:9;s:71:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/email_list.lbi";i:10;s:69:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/index_ad.lbi";i:11;s:73:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/new_articles.lbi";i:12;s:80:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/recommend_promotion.lbi";i:13;s:67:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/brands.lbi";i:14;s:75:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/recommend_best.lbi";i:15;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/recommend_new.lbi";i:16;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/recommend_hot.lbi";i:17;s:68:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/auction.lbi";i:18;s:70:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/group_buy.lbi";i:19;s:65:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/help.lbi";i:20;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475570025;s:8:"maketime";i:1475566425;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:21:{i:0;s:58:"D:/xampp/htdocs/ecshop/realEstate/themes/default/index.dwt";i:1;s:76:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/lyk_page_header.lbi";i:2;s:65:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/cart.lbi";i:3;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/category_tree.lbi";i:4;s:66:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/top10.lbi";i:5;s:75:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/promotion_info.lbi";i:6;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/order_query.lbi";i:7;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/invoice_query.lbi";i:8;s:70:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/vote_list.lbi";i:9;s:71:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/email_list.lbi";i:10;s:69:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/index_ad.lbi";i:11;s:73:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/new_articles.lbi";i:12;s:80:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/recommend_promotion.lbi";i:13;s:67:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/brands.lbi";i:14;s:75:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/recommend_best.lbi";i:15;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/recommend_new.lbi";i:16;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/recommend_hot.lbi";i:17;s:68:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/auction.lbi";i:18;s:70:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/group_buy.lbi";i:19;s:65:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/help.lbi";i:20;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475582729;s:8:"maketime";i:1475579129;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -27,48 +27,58 @@
    </div>
     <div id="lyk_bottom">
         <a id="lyk_log_pic" href="index.php" name="top"><img src="themes/default/images/lyk_main_logo.jpg" alt="website logo"/></a>
-        <div id="lyk_cart_title">
-            产品分类
-            <ul id="lyk_cart">
-                                     <a href="category.php?id=3" >GSM手机</a>
-                                     <a href="category.php?id=5" >双模手机</a>
-                                     <a href="category.php?id=6" >手机配件</a>
-                                     <a href="group_buy.php" >团购商品</a>
-                                     <a href="activity.php" >优惠活动</a>
-                                     <a href="snatch.php" >夺宝奇兵</a>
-                                     <a href="auction.php" >拍卖活动</a>
-                                     <a href="exchange.php" >积分商城</a>
-                                     <a href="message.php" >留言板</a>
-                                     <a href="http://bbs.ecshop.com/" target="_blank" >EC论坛</a>
-                            </ul>
-        </div>
+        <div id="lyk_cart_title" onmouseover="showCategory()">产品分类</div>
         <form id="lyk_search" method="get" action="search.php">
             <ul id="lyk_search_dir">
                                      <li onclick="addId(this)">手机类型</li>
                                      <li onclick="addId(this)">手机配件</li>
                                      <li onclick="addId(this)">充值卡</li>
                             </ul>
-            <script type="text/javascript">
-                
-                    <!--
-                    var lis = document.getElementById("lyk_search_dir").getElementsByTagName("li");
-                    lis[0].id = "lyk_search_dir_on";
-                    function addId(e)
-                    {
-                        for ( var i=0; i<lis.length; i++ )
-                        {
-                            lis[i].id = "";
-                        }
-                        e.id = "lyk_search_dir_on";
-                    }
-                    -->
-                    
-            </script>
             <input name="keywords" type="text" id="lyk_keywords" value=""/>
             <input name="imageField" type="submit" id="lyk_submit" value="搜索" />
         </form>
+        <ul id="lyk_cart">
+                             <a href="category.php?id=3" >GSM手机</a>
+                             <a href="category.php?id=5" >双模手机</a>
+                             <a href="category.php?id=6" >手机配件</a>
+                             <a href="group_buy.php" >团购商品</a>
+                             <a href="activity.php" >优惠活动</a>
+                             <a href="snatch.php" >夺宝奇兵</a>
+                             <a href="auction.php" >拍卖活动</a>
+                             <a href="exchange.php" >积分商城</a>
+                             <a href="message.php" >留言板</a>
+                             <a href="http://bbs.ecshop.com/" target="_blank" >EC论坛</a>
+                    </ul>
     </div>
-</div><div class="blank"></div>
+</div>
+<script type="text/javascript">
+    
+        <!--
+        var lis = document.getElementById("lyk_search_dir").getElementsByTagName("li");
+        var lyk_cart = document.getElementById("lyk_cart");
+        lis[0].id = "lyk_search_dir_on";
+        function addId(e)
+        {
+            for ( var i=0; i<lis.length; i++ )
+            {
+                lis[i].id = "";
+            }
+            e.id = "lyk_search_dir_on";
+        }
+        function showCategory()
+        {
+            var lyk_cart = document.getElementById("lyk_cart");
+            lyk_cart.style.display = 'block';
+        }
+        function hideCategory()
+        {
+            var lyk_cart = document.getElementById("lyk_cart");
+            lyk_cart.style.display = 'none';
+        }
+        document.body.onclick = hideCategory;
+        -->
+    
+</script><div class="blank"></div>
 <div class="block clearfix">
   
   <div class="AreaL">
