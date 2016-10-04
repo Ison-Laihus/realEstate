@@ -93,6 +93,7 @@
 </div>
 <div class="blank5"></div>
 
+<!--
 <div class="block">
   <div class="box">
    <div class="helpTitBg clearfix">
@@ -100,6 +101,12 @@
    </div>
   </div>
 </div>
+-->
+
+<div id="lyk_help">
+    <?php echo $this->fetch('library/help.lbi'); ?>
+</div>
+
 <div class="blank"></div>
 
 
@@ -124,7 +131,8 @@
 </div>
 <?php endif; ?>
 
+
 <div class="blank"></div>
-<?php echo $this->fetch('library/page_footer.lbi'); ?>
+<?php echo $this->fetch('library/lyk_page_footer.lbi'); ?>
 </body>
 </html>

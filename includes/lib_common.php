@@ -618,6 +618,9 @@ function load_config()
         $arr['invoice_type']         = empty($arr['invoice_type']) ? array('type' => array(), 'rate' => array()) : unserialize($arr['invoice_type']);
         $arr['show_order_type']      = isset($arr['show_order_type']) ? $arr['show_order_type'] : 0;    // 显示方式默认为列表方式
         $arr['help_open']            = isset($arr['help_open']) ? $arr['help_open'] : 1;    // 显示方式默认为列表方式
+//        $arr['service_phone']        = isset($arr['service_phone']) ? $arr['service_phone'] : '188688998861111111';
+        $arr['service_phone'] = '11111111111111111';
+        $arr['service_email']        = isset($arr['service_email']) ? $arr['service_email'] : '我就是在这里，不服你来啊';
 
         if (!isset($GLOBALS['_CFG']['ecs_version']))
         {

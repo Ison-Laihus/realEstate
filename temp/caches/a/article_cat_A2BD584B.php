@@ -1,15 +1,15 @@
-<?php exit;?>a:3:{s:8:"template";a:13:{i:0;s:66:"D:/xampp/htdocs/ecshop/realEstate/themes/default/exchange_list.dwt";i:1;s:76:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/lyk_page_header.lbi";i:2;s:68:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/ur_here.lbi";i:3;s:65:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/cart.lbi";i:4;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/category_tree.lbi";i:5;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/filter_attr.lbi";i:6;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/price_grade.lbi";i:7;s:68:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/history.lbi";i:8;s:73:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/exchange_hot.lbi";i:9;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/exchange_list.lbi";i:10;s:66:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/pages.lbi";i:11;s:65:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/help.lbi";i:12;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475570642;s:8:"maketime";i:1475567042;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:64:"D:/xampp/htdocs/ecshop/realEstate/themes/default/article_cat.dwt";i:1;s:76:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/lyk_page_header.lbi";i:2;s:68:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/ur_here.lbi";i:3;s:65:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/cart.lbi";i:4;s:74:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/category_tree.lbi";i:5;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/filter_attr.lbi";i:6;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/price_grade.lbi";i:7;s:68:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/history.lbi";i:8;s:66:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/pages.lbi";i:9;s:65:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/help.lbi";i:10;s:72:"D:/xampp/htdocs/ecshop/realEstate/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475590499;s:8:"maketime";i:1475586899;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="Keywords" content="" />
-<meta name="Description" content="" />
-<title>积分商城_ECSHOP演示站 - Powered by ECShop</title>
+<meta name="Description" content="手机常识 " />
+<title>手机常识 _网店帮助分类_系统分类_ECSHOP演示站 - Powered by ECShop</title>
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
 <link href="themes/default/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="js/common.js"></script><script type="text/javascript" src="js/global.js"></script><script type="text/javascript" src="js/compare.js"></script></head>
+<script type="text/javascript" src="js/common.js"></script></head>
 <body>
 <div id="lyk_header">
     <div id="lyk_top">
@@ -26,61 +26,71 @@
    </div>
     <div id="lyk_bottom">
         <a id="lyk_log_pic" href="index.php" name="top"><img src="themes/default/images/lyk_main_logo.jpg" alt="website logo"/></a>
-        <div id="lyk_cart_title">
-            产品分类
-            <ul id="lyk_cart">
-                                     <a href="category.php?id=3" >GSM手机</a>
-                                     <a href="category.php?id=5" >双模手机</a>
-                                     <a href="category.php?id=6" >手机配件</a>
-                                     <a href="group_buy.php" >团购商品</a>
-                                     <a href="activity.php" >优惠活动</a>
-                                     <a href="snatch.php" >夺宝奇兵</a>
-                                     <a href="auction.php" >拍卖活动</a>
-                                     <a href="exchange.php" >积分商城</a>
-                                     <a href="message.php" >留言板</a>
-                                     <a href="http://bbs.ecshop.com/" target="_blank" >EC论坛</a>
-                            </ul>
-        </div>
+        <div id="lyk_cart_title" onmouseover="showCategory()">产品分类</div>
         <form id="lyk_search" method="get" action="search.php">
             <ul id="lyk_search_dir">
                                      <li onclick="addId(this)">手机类型</li>
                                      <li onclick="addId(this)">手机配件</li>
                                      <li onclick="addId(this)">充值卡</li>
                             </ul>
-            <script type="text/javascript">
-                
-                    <!--
-                    var lis = document.getElementById("lyk_search_dir").getElementsByTagName("li");
-                    lis[0].id = "lyk_search_dir_on";
-                    function addId(e)
-                    {
-                        for ( var i=0; i<lis.length; i++ )
-                        {
-                            lis[i].id = "";
-                        }
-                        e.id = "lyk_search_dir_on";
-                    }
-                    -->
-                    
-            </script>
             <input name="keywords" type="text" id="lyk_keywords" value=""/>
             <input name="imageField" type="submit" id="lyk_submit" value="搜索" />
         </form>
+        <ul id="lyk_cart">
+                             <a href="category.php?id=3" >GSM手机</a>
+                             <a href="category.php?id=5" >双模手机</a>
+                             <a href="category.php?id=6" >手机配件</a>
+                             <a href="group_buy.php" >团购商品</a>
+                             <a href="activity.php" >优惠活动</a>
+                             <a href="snatch.php" >夺宝奇兵</a>
+                             <a href="auction.php" >拍卖活动</a>
+                             <a href="exchange.php" >积分商城</a>
+                             <a href="message.php" >留言板</a>
+                             <a href="http://bbs.ecshop.com/" target="_blank" >EC论坛</a>
+                    </ul>
     </div>
 </div>
+<script type="text/javascript">
+    
+        <!--
+        var lis = document.getElementById("lyk_search_dir").getElementsByTagName("li");
+        var lyk_cart = document.getElementById("lyk_cart");
+        lis[0].id = "lyk_search_dir_on";
+        function addId(e)
+        {
+            for ( var i=0; i<lis.length; i++ )
+            {
+                lis[i].id = "";
+            }
+            e.id = "lyk_search_dir_on";
+        }
+        function showCategory()
+        {
+            var lyk_cart = document.getElementById("lyk_cart");
+            lyk_cart.style.display = 'block';
+        }
+        function hideCategory()
+        {
+            var lyk_cart = document.getElementById("lyk_cart");
+            lyk_cart.style.display = 'none';
+        }
+        document.body.onclick = hideCategory;
+        -->
+    
+</script>
 <div class="block box">
  <div id="ur_here">
-  当前位置: <a href=".">首页</a> <code>&gt;</code> <a href="exchange.php">积分商城</a> </div>
+  当前位置: <a href=".">首页</a> <code>&gt;</code> <a href="article_cat.php?id=1">系统分类</a> <code>&gt;</code> <a href="article_cat.php?id=3">网店帮助分类</a> <code>&gt;</code> <a href="article_cat.php?id=6">手机常识 </a> </div>
 </div>
 <div class="blank"></div>
 <div class="block clearfix">
   
   <div class="AreaL">
     
-    <script type="text/javascript" src="js/transport.js"></script><div class="cart" id="ECS_CARTINFO">
+<script type="text/javascript" src="js/transport.js"></script><div class="cart" id="ECS_CARTINFO">
  554fcae493e564ee0dc75bdf2ebf94cacart_info|a:1:{s:4:"name";s:9:"cart_info";}554fcae493e564ee0dc75bdf2ebf94ca</div>
 <div class="blank5"></div>
-    <div class="box">
+<div class="box">
  <div class="box_1">
   <div id="category_tree">
          <dl>
@@ -111,7 +121,9 @@
  </div>
 </div>
 <div class="blank5"></div>
-            <div class="box" id='history_div'>
+  
+    
+    <div class="box" id='history_div'>
  <div class="box_1">
   <h3><span>浏览历史</span></h3>
   <div class="boxCenterList clearfix" id='history_list'>
@@ -136,66 +148,50 @@ function clear_history_Response(res)
 {
 document.getElementById('history_list').innerHTML = '您已清空最近浏览过的商品';
 }
-</script>    
-    
-    
-    
-  </div>
+</script>  </div>
   
   
   <div class="AreaR">
-    
-        <div class="box">
-  <div class="box_1">
-    <h3>
-      <span>商品列表</span>
-      <form method="GET" class="sort" name="listform">
-        显示方式：
-        <a href="javascript:;" onClick="javascript:display_mode('list')"><img src="themes/default/images/display_mode_list.gif" alt=""></a>
-        <a href="javascript:;" onClick="javascript:display_mode('grid')"><img src="themes/default/images/display_mode_grid_act.gif" alt=""></a>
-        <a href="javascript:;" onClick="javascript:display_mode('text')"><img src="themes/default/images/display_mode_text.gif" alt=""></a>&nbsp;&nbsp;
-        <select name="sort" style="border:1px solid #ccc;">
-        <option value="goods_id" selected>按上架时间排序</option><option value="exchange_integral">按积分排序</option><option value="last_update">按更新时间排序</option>        </select>
-        <select name="order" style="border:1px solid #ccc;">
-        <option value="DESC" selected>倒序</option><option value="ASC">正序</option>        </select>
-        <input type="image" name="imageField" src="themes/default/images/bnt_go.gif" alt="go"/>
-        <input type="hidden" name="category" value="0" />
-        <input type="hidden" name="display" value="grid" id="display" />
-        <input type="hidden" name="integral_min" value="0" />
-        <input type="hidden" name="integral_max" value="0" />
-        <input type="hidden" name="page" value="1" />
+   <div class="box">
+   <div class="box_1">
+    <h3><span>文章列表</span></h3>
+    <div class="boxCenterList">
+          <form action="" name="search_form" method="post" class="article_search">
+        <input name="keywords" type="text" id="requirement" value="" class="inputBg" />
+        <input name="id" type="hidden" value="6" />
+        <input name="cur_url" id="cur_url" type="hidden" value="" />
+        <input type="submit" value="立即搜索" class="bnt_blue_1" />
       </form>
-    </h3>
-    <form name="compareForm" method="post">
-          <div class="centerPadd">
-        <div class="clearfix goodsBox" style="border:none;">
-                              <div class="goodsItem">
-              <a href="exchange.php?id=24&amp;act=view"><img src="images/200905/thumb_img/24_thumb_G_1241971981429.jpg" alt="P806" class="goodsimg" /></a><br />
-              <p><a href="exchange.php?id=24&amp;act=view" title="P806">P806</a></p>
-              消耗积分：<font class="shop_s">17000</font><br />
-            </div>
-                                        <div class="goodsItem">
-              <a href="exchange.php?id=19&amp;act=view"><img src="images/200905/thumb_img/19_thumb_G_1241970175208.jpg" alt="三星SGH-F..." class="goodsimg" /></a><br />
-              <p><a href="exchange.php?id=19&amp;act=view" title="三星SGH-F258">三星SGH-F...</a></p>
-              消耗积分：<font class="shop_s">80000</font><br />
-            </div>
-                          </div>
-      </div>
-        </form>
+      <table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#dddddd">
+      <tr>
+        <th bgcolor="#ffffff">文章标题</th>
+          <th bgcolor="#ffffff">作者</th>
+          <th bgcolor="#ffffff">添加日期</th>
+        </tr>
+            <tr>
+        <td bgcolor="#ffffff"><a href="article.php?id=12" title="如何分辨原装电池" class="f6">如何分辨原装电池</a></td>
+          <td bgcolor="#ffffff">ECSHOP</td>
+          <td bgcolor="#ffffff" align="center">2009-05-18</td>
+        </tr>
+            <tr>
+        <td bgcolor="#ffffff"><a href="article.php?id=14" title="如何享受全国联保" class="f6">如何享受全国联保</a></td>
+          <td bgcolor="#ffffff">ECSHOP</td>
+          <td bgcolor="#ffffff" align="center">2009-05-18</td>
+        </tr>
+            <tr>
+        <td bgcolor="#ffffff"><a href="article.php?id=13" title="如何分辨水货手机 " class="f6">如何分辨水货手机</a></td>
+          <td bgcolor="#ffffff">ECSHOP</td>
+          <td bgcolor="#ffffff" align="center">2009-05-18</td>
+        </tr>
+          </table>
+    </div>
+   </div>
   </div>
-</div>
-<div class="blank5"></div>
-<script type="text/javascript">
-  window.onload = function()
-  {
-    Compare.init();
-    fixpng();
-  }
-  var button_compare = '';
-</script>    
-<form name="selectPageForm" action="/ecshop/realEstate/exchange.php" method="get">
+  <div class="blank5"></div>
+  
+<form name="selectPageForm" action="/ecshop/realEstate/article_cat.php" method="get">
  <div id="pager" class="pagebar">
-  <span class="f_l f6" style="margin-right:10px;">总计 <b>2</b>  个记录</span>
+  <span class="f_l f6" style="margin-right:10px;">总计 <b>3</b>  个记录</span>
       
       </div>
 </form>
@@ -207,15 +203,14 @@ function selectPage(sel)
 }
 //-->
 </script>
-    
-  </div>
+  </div>  
   
 </div>
 <div class="blank5"></div>
 <div class="block">
   <div class="box">
-    <div class="helpTitBg clearfix">
-      <dl>
+   <div class="helpTitBg clearfix">
+    <dl>
   <dt><a href='article_cat.php?id=5' title="新手上路 ">新手上路 </a></dt>
     <dd><a href="article.php?id=9" title="售后流程">售后流程</a></dd>
     <dd><a href="article.php?id=10" title="购物流程">购物流程</a></dd>
@@ -251,8 +246,8 @@ function selectPage(sel)
     <dd><a href="article.php?id=25" title="选机咨询 ">选机咨询</a></dd>
     <dd><a href="article.php?id=26" title="投诉与建议 ">投诉与建议</a></dd>
   </dl>
-    </div>
-  </div>
+   </div>
+  </div>  
 </div>
 <div class="blank"></div>
 <div class="blank"></div>
@@ -288,8 +283,11 @@ function selectPage(sel)
     554fcae493e564ee0dc75bdf2ebf94caquery_info|a:1:{s:4:"name";s:10:"query_info";}554fcae493e564ee0dc75bdf2ebf94ca<br />
   <a href="http://www.ecshop.com" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v2.7.3</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Flocalhost%2Fecshop%2FrealEstate%2F" target="_blank"
 >&nbsp;&nbsp;Licensed</a><br />
-        <div align="left"  id="rss"><a href="feed.php?type=exchange"><img src="themes/default/images/xml_rss2.gif" alt="rss" /></a></div>
+        <div align="left"  id="rss"><a href="feed.php?type=article_cat6"><img src="themes/default/images/xml_rss2.gif" alt="rss" /></a></div>
  </div>
 </div>
 </body>
+<script type="text/javascript">
+document.getElementById('cur_url').value = window.location.href;
+</script>
 </html>

@@ -440,6 +440,7 @@ function check_email()
 </div>
 <div class="blank5"></div>
 <!--帮助-->
+<!--
 <div class="block">
   <div class="box">
    <div class="helpTitBg clearfix">
@@ -447,6 +448,12 @@ function check_email()
    </div>
   </div>
 </div>
+-->
+<!-- start -----lyk : 站内帮助  -->
+<div id="lyk_help">
+    <!-- #BeginLibraryItem "/library/help.lbi" --><!-- #EndLibraryItem -->
+</div>
+<!-- end -----lyk -->
 <div class="blank"></div>
 <!--帮助-->
 <!--友情链接 start-->
@@ -466,8 +473,9 @@ function check_email()
  </div>
 </div>
 <!--{/if}-->
+
 <!--友情链接 end-->
 <div class="blank"></div>
-<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/lyk_page_footer.lbi" --><!-- #EndLibraryItem -->
 </body>
 </html>

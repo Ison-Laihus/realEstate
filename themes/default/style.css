@@ -168,7 +168,83 @@ Template Type: type_0
     color: #fff;
 }
 
+/*重改底部区域page_footer ---------> lyk_page_footder */
+#lyk_footer{
+    width: 100%;
+    height: 100px;
+    background-color: #fafafa;
+    box-shadow: inset 5px 0 8px #ddd;
+}
+#lyk_footer_nav{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+#lyk_footer_nav a{
+    text-decoration: none;
+    color: #aaa;
+}
+#lyk_footer_nav a span{
+    color: #aaa;
+}
+#lyk_footer_nav a:hover{
+    color: #000;
+}
+#lyk_footer_nav a:hover span{
+    color: #000;
+}
 
+#lyk_footer_copyright{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*重改站内帮助部区域 */
+#lyk_help{
+    width: 1200px;
+    margin: 0 auto;
+}
+#lyk_help a{
+    text-decoration: none;
+}
+#lyk_help dl{
+    display: block;
+    width: 198px;
+    float: left;
+    border-left: 1px solid #96B0AF;
+}
+#lyk_help dl:last-child{
+    border-right: 1px solid #ccc;
+}
+#lyk_help dl dt{
+    height: 30px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+#lyk_help dl dt a{
+    color: #fff;
+}
+#lyk_help dl dt a:hover{
+    color: #CC0000;
+    font-weight: bold;
+}
+#lyk_help dl dd{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+#lyk_help dl dd a{
+    color: #555555;
+}
+#lyk_help dl dd a:hover{
+    text-decoration: underline;
+    color: #E44087;
+}
 
 
 
