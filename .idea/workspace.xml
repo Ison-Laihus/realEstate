@@ -2,40 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43d09665-ab94-442f-95bc-3e1ab244014a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/default/library/lyk_page_footer.lbi" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/2/category_7B53F034.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/4/category_869BD09B.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/5/category_8DC5F798.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/6/goods_DF614710.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/7/article_47B4266A.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/a/exchange_list_622F0443.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/f/category_65D26739.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/caches/f/category_90279E9D.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/static_caches/api_str.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/static_caches/cat_parent_grade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/static_caches/cloud_remind.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/temp/static_caches/menu_api.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/default/library/lyk_goods_gallery.lbi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/default/lyk_goods.dwt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/lib_common.php" afterPath="$PROJECT_DIR$/includes/lib_common.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goods.php" afterPath="$PROJECT_DIR$/goods.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/caches/f/index_40F756F0.php" afterPath="$PROJECT_DIR$/temp/caches/f/index_40F756F0.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/bought_goods.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/bought_goods.lbi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/bought_notes.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/bought_notes.lbi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/comments_list.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/comments_list.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/filter_attr.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/filter_attr.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/goods_article.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/goods_article.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/goods_attrlinked.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/goods_attrlinked.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/goods_related.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/goods_related.lbi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/goods.dwt.php" afterPath="$PROJECT_DIR$/temp/compiled/goods.dwt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/goods_gallery.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/goods_gallery.lbi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/group_buy.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/group_buy.lbi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/index.dwt.php" afterPath="$PROJECT_DIR$/temp/compiled/index.dwt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/price_grade.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/price_grade.lbi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/recommend_promotion.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/recommend_promotion.lbi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/compiled/vote.lbi.php" afterPath="$PROJECT_DIR$/temp/compiled/vote.lbi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/query_caches/sqlcache_config_file_4f9bf2caf5249dc16b3420bd3c356406.php" afterPath="$PROJECT_DIR$/temp/query_caches/sqlcache_config_file_4f9bf2caf5249dc16b3420bd3c356406.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/static_caches/cat_option_static.php" afterPath="$PROJECT_DIR$/temp/static_caches/cat_option_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/static_caches/cat_pid_releate.php" afterPath="$PROJECT_DIR$/temp/static_caches/cat_pid_releate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/static_caches/recommend_goods.php" afterPath="$PROJECT_DIR$/temp/static_caches/recommend_goods.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/static_caches/shop_config.php" afterPath="$PROJECT_DIR$/temp/static_caches/shop_config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/index.dwt" afterPath="$PROJECT_DIR$/themes/default/index.dwt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/goods.dwt" afterPath="$PROJECT_DIR$/themes/default/goods.dwt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/default/style.css" afterPath="$PROJECT_DIR$/themes/default/style.css" />
     </list>
     <ignored path="realEstate.iws" />
@@ -56,7 +36,86 @@
     <favorites_list name="realEstate" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="goods_gallery.lbi" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/library/goods_gallery.lbi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lyk_goods_gallery.lbi" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/library/lyk_goods_gallery.lbi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lyk_goods.dwt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/default/lyk_goods.dwt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="334" column="35" selection-start-line="334" selection-start-column="35" selection-end-line="334" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ur_here.lbi" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/library/ur_here.lbi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goods.dwt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/goods.dwt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="584" column="15" selection-start-line="584" selection-start-column="1" selection-end-line="584" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goods.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goods.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="222" column="26" selection-start-line="222" selection-start-column="26" selection-end-line="222" selection-end-column="26" />
+              <folding>
+                <marker date="1475735762790" expanded="true" signature="6211:6504" ph="SELECT type_... ${$ecs-&gt;table('bonus_type')}" />
+                <marker date="1475735762790" expanded="true" signature="7462:7656" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+                <marker date="1475735762790" expanded="true" signature="7907:8094" ph="SELECT max(g... ${$ecs-&gt;table('goods')}" />
+                <marker date="1475735762790" expanded="true" signature="19871:19983" ph="SELECT SUM(a... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+                <marker date="1475735762790" expanded="true" signature="20233:20754" ph="SELECT pg.go... ${$GLOBALS['ecs']-&gt;table('goods_activity')}" />
+                <marker date="1475735762790" expanded="true" signature="21122:21956" ph="SELECT pg.pa... ${$GLOBALS['ecs']-&gt;table('package_goods')}" />
+                <marker date="1475735762790" expanded="true" signature="22503:22761" ph="SELECT ga.go... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/default/library/lyk_page_header.dwt" />
         <option value="$PROJECT_DIR$/includes/lib_insert.php" />
         <option value="$PROJECT_DIR$/themes/default/library/lyk_member_info_wel.lbi" />
         <option value="$PROJECT_DIR$/themes/default/library/lyk_member_info.lbi" />
@@ -72,7 +130,6 @@
         <option value="$PROJECT_DIR$/themes/default/library/page_header.lbi" />
         <option value="$PROJECT_DIR$/includes/lib_main.php" />
         <option value="$PROJECT_DIR$/themes/default/search.dwt" />
-        <option value="$PROJECT_DIR$/themes/default/goods.dwt" />
         <option value="$PROJECT_DIR$/themes/default/category.dwt" />
         <option value="$PROJECT_DIR$/themes/default/exchange_goods.dwt" />
         <option value="$PROJECT_DIR$/themes/default/exchange_list.dwt" />
@@ -108,9 +165,15 @@
         <option value="$PROJECT_DIR$/themes/default/library/page_footer.lbi" />
         <option value="$PROJECT_DIR$/themes/default/library/lyk_page_footer.lbi" />
         <option value="$PROJECT_DIR$/themes/default/library/lyk_help.lbi" />
-        <option value="$PROJECT_DIR$/themes/default/style.css" />
         <option value="$PROJECT_DIR$/includes/lib_common.php" />
         <option value="$PROJECT_DIR$/themes/default/index.dwt" />
+        <option value="$PROJECT_DIR$/goods.php" />
+        <option value="$PROJECT_DIR$/themes/default/goods.dwt" />
+        <option value="$PROJECT_DIR$/themes/default/library/ur_here.lbi" />
+        <option value="$PROJECT_DIR$/themes/default/library/goods_gallery.lbi" />
+        <option value="$PROJECT_DIR$/themes/default/library/lyk_goods_gallery.lbi" />
+        <option value="$PROJECT_DIR$/themes/default/style.css" />
+        <option value="$PROJECT_DIR$/themes/default/lyk_goods.dwt" />
       </list>
     </option>
   </component>
@@ -152,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -160,10 +224,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="realEstate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="realEstate" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="realEstate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="realEstate" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,17 +326,21 @@
       <workItem from="1475498878604" duration="6667000" />
       <workItem from="1475509168986" duration="2242000" />
       <workItem from="1475555796370" duration="21726000" />
+      <workItem from="1475642973738" duration="1239000" />
+      <workItem from="1475684529756" duration="1498000" />
+      <workItem from="1475722062775" duration="1792000" />
+      <workItem from="1475734496262" duration="10561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30635000" />
+    <option name="totallyTimeSpent" value="45725000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12688822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1397281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -303,123 +394,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/default/library/member_info.lbi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/library/lyk_member_info.lbi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default_old/category.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/library/lyk_member_info_wel.lbi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/library/page_header.lbi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/search.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/goods.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/exchange_list.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/exchange_goods.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/category.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/activity.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/article.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/article_cat.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/article_pro.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/default/auction.dwt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -427,7 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -435,7 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -443,7 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -451,7 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -459,7 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -467,7 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -475,7 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-119">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -483,7 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -491,7 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -499,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -507,7 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -515,7 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -523,7 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -531,7 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -547,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -555,7 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,7 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,7 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,7 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,15 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/library/lyk_page_header.lbi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,14 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="239" column="66" selection-start-line="239" selection-start-column="53" selection-end-line="239" selection-end-column="66" />
-          <folding>
-            <marker date="1334114180000" expanded="true" signature="3316:3338" ph="SELECT id, v... ${$ecs-&gt;table('shop_config')}" />
-            <marker date="1334114180000" expanded="true" signature="3812:3898" ph="SELECT * FRO... ${$ecs-&gt;table('shop_config')}" />
-            <marker date="1334114180000" expanded="true" signature="7071:7158" ph="SELECT regio... ${$ecs-&gt;table('region')}" />
-            <marker date="1334114180000" expanded="true" signature="7197:7285" ph="SELECT regio... ${$ecs-&gt;table('region')}" />
-            <marker date="1334114180000" expanded="true" signature="7324:7408" ph="SELECT regio... ${$ecs-&gt;table('region')}" />
-            <marker date="1334114180000" expanded="true" signature="11215:11363" ph="SELECT * FRO... ${$ecs-&gt;table('shop_config')}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,21 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#491#0#PHP" expanded="true" />
-            <marker date="1475504337139" expanded="true" signature="1609:1630" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('sessions')}" />
-            <marker date="1475504337139" expanded="true" signature="2245:2430" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods')}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="116" column="22" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
-          <folding>
-            <marker date="1418194820211" expanded="true" signature="3235:3285" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,14 +594,127 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/library/lyk_help.lbi" />
+    <entry file="file://$PROJECT_DIR$/themes/default/library/lyk_page_footer.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/lib_common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="621" column="52" selection-start-line="621" selection-start-column="52" selection-end-line="621" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="445" column="35" selection-start-line="445" selection-start-column="35" selection-end-line="445" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ToolsForProgramming/SublimeText3/Database/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/library/lyk_page_header.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods_script.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/library/goods_fittings.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="2536" column="84" selection-start-line="2536" selection-start-column="84" selection-end-line="2536" selection-end-column="84" />
+          <folding>
+            <marker date="1418194820813" expanded="true" signature="2805:2872" ph="SELECT value... ${$ecs-&gt;table('shop_config')}" />
+            <marker date="1418194820813" expanded="true" signature="4313:4414" ph="SELECT * FRO... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1418194820813" expanded="true" signature="7566:7668" ph="SELECT id FR... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1418194820813" expanded="true" signature="8483:8578" ph="INSERT INTO ${$ecs-&gt;table('reg_extend_info')}... " />
+            <marker date="1418194820813" expanded="true" signature="9992:10071" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820813" expanded="true" signature="15753:15854" ph="SELECT * FRO... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1418194820813" expanded="true" signature="18185:18287" ph="SELECT id FR... ${$ecs-&gt;table('reg_fields')}" />
+            <marker date="1418194820813" expanded="true" signature="18730:18840" ph="SELECT * FRO... ${$ecs-&gt;table('reg_extend_info')}" />
+            <marker date="1418194820813" expanded="true" signature="19146:19289" ph="INSERT INTO ${$ecs-&gt;table('reg_extend_info')}... " />
+            <marker date="1418194820813" expanded="true" signature="22511:22641" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820813" expanded="true" signature="28493:28572" ph="SELECT COUNT... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820813" expanded="true" signature="33475:33549" ph="SELECT addre... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820813" expanded="true" signature="36582:36717" ph="SELECT COUNT... ${$ecs-&gt;table('collect_goods')}" />
+            <marker date="1418194820813" expanded="true" signature="37555:37655" ph="DELETE FROM " />
+            <marker date="1418194820813" expanded="true" signature="38726:38864" ph="SELECT COUNT... ${$ecs-&gt;table('feedback')}" />
+            <marker date="1418194820813" expanded="true" signature="38902:39003" ph="SELECT * FRO... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820813" expanded="true" signature="39124:39294" ph="SELECT COUNT... ${$ecs-&gt;table('feedback')}" />
+            <marker date="1418194820813" expanded="true" signature="40005:40110" ph="SELECT COUNT... ${$ecs-&gt;table('comment')}" />
+            <marker date="1418194820813" expanded="true" signature="46861:46991" ph="SELECT COUNT... ${$ecs-&gt;table('account_log')}" />
+            <marker date="1418194820813" expanded="true" signature="47320:47483" ph="SELECT * FRO... ${$ecs-&gt;table('account_log')}" />
+            <marker date="1418194820813" expanded="true" signature="48657:48783" ph="SELECT COUNT... ${$ecs-&gt;table('user_account')}" />
+            <marker date="1418194820813" expanded="true" signature="55084:55168" ph="SELECT order... ${$ecs-&gt;table('pay_log')}" />
+            <marker date="1418194820813" expanded="true" signature="57753:57894" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('collect_goods')}" />
+            <marker date="1418194820813" expanded="true" signature="58182:58345" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('collect_goods')}... " />
+            <marker date="1418194820813" expanded="true" signature="59015:59106" ph="SELECT user_... ${$ecs-&gt;table('feedback')}" />
+            <marker date="1418194820813" expanded="true" signature="59410:59493" ph="DELETE FROM " />
+            <marker date="1418194820813" expanded="true" signature="59769:59859" ph="DELETE FROM " />
+            <marker date="1418194820813" expanded="true" signature="61276:61356" ph="SELECT user_... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820813" expanded="true" signature="68503:68582" ph="SELECT COUNT... ${$ecs-&gt;table('user_bonus')}" />
+            <marker date="1418194820813" expanded="true" signature="70068:70144" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820813" expanded="true" signature="70904:71256" ph="SELECT count... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820813" expanded="true" signature="71280:71785" ph="SELECT o.*, ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820813" expanded="true" signature="72630:73017" ph="SELECT count... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820813" expanded="true" signature="73042:73575" ph="SELECT o.*, ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820813" expanded="true" signature="77744:77814" ph="SELECT * FRO... ${$ecs-&gt;table('email_list')}" />
+            <marker date="1418194820813" expanded="true" signature="77949:78044" ph="INSERT INTO ${$ecs-&gt;table('email_list')}... " />
+            <marker date="1418194820813" expanded="true" signature="80875:80942" ph="DELETE FROM " />
+            <marker date="1418194820813" expanded="true" signature="82300:82466" ph="SELECT order... ${$ecs-&gt;table('order_info')}" />
+            <marker date="1418194820813" expanded="true" signature="84830:84927" ph="SELECT shipp... ${$ecs-&gt;table('shipping')}" />
+            <marker date="1418194820813" expanded="true" signature="86390:86500" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820813" expanded="true" signature="90225:90334" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820813" expanded="true" signature="93337:93447" ph="SELECT user_... ${$ecs-&gt;table('users')}" />
+            <marker date="1418194820813" expanded="true" signature="95250:95492" ph="INSERT INTO ${$ecs-&gt;table('account_log')}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="187" column="31" selection-start-line="187" selection-start-column="31" selection-end-line="187" selection-end-column="31" />
+          <folding>
+            <marker date="1418194820211" expanded="true" signature="3235:3285" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/lib_main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="435" column="17" selection-start-line="435" selection-start-column="17" selection-end-line="435" selection-end-column="17" />
+        <state relative-caret-position="240">
+          <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
           <folding>
             <marker date="1475567194053" expanded="true" signature="1751:1846" ph="SELECT speci... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
             <marker date="1475567194053" expanded="true" signature="2318:2488" ph="SELECT rank_... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
@@ -711,72 +746,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/library/lyk_help.lbi">
+    <entry file="file://$PROJECT_DIR$/goods.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/library/lyk_page_footer.lbi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/lib_common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="621" column="52" selection-start-line="621" selection-start-column="52" selection-end-line="621" selection-end-column="52" />
+        <state relative-caret-position="168">
+          <caret line="222" column="26" selection-start-line="222" selection-start-column="26" selection-end-line="222" selection-end-column="26" />
           <folding>
-            <marker date="1475588200037" expanded="true" signature="4139:4280" ph="SELECT regio... ${$GLOBALS['ecs']-&gt;table('region')}" />
-            <marker date="1475588200037" expanded="true" signature="4520:4625" ph="SELECT confi... ${$GLOBALS['ecs']-&gt;table('shipping_area')}" />
-            <marker date="1475588200037" expanded="true" signature="5403:5416" ph="SELECT * FRO... " />
-            <marker date="1475588200037" expanded="true" signature="5403:5417" ph="SELECT * FRO... ${$GLOBALS}" />
-            <marker date="1475588200037" expanded="true" signature="5403:5434" ph="SELECT * FRO... ${$GLOBALS['ecs']}" />
-            <marker date="1475588200037" expanded="true" signature="5403:5475" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('category')}" />
-            <marker date="1475588200037" expanded="true" signature="5403:5476" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('category')}" />
-            <marker date="1475588200037" expanded="true" signature="15368:15457" ph="SELECT code,... ${$GLOBALS['ecs']-&gt;table('shop_config')}" />
-            <marker date="1475588200037" expanded="true" signature="19722:19814" ph="SELECT brand... ${$GLOBALS['ecs']-&gt;table('brand')}" />
-            <marker date="1475588200037" expanded="true" signature="21787:21970" ph="SELECT act_i... ${$GLOBALS['ecs']-&gt;table('goods_activity')}" />
-            <marker date="1475588200037" expanded="true" signature="24481:24667" ph="SELECT act_i... ${$GLOBALS['ecs']-&gt;table('favourable_activity')}" />
-            <marker date="1475588200037" expanded="true" signature="25406:25513" ph="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('goods')}" />
-            <marker date="1475588200037" expanded="true" signature="29870:30008" ph="SELECT templ... ${$GLOBALS['ecs']-&gt;table('mail_templates')}" />
-            <marker date="1475588200037" expanded="true" signature="30620:31051" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('order_action')}... " />
-            <marker date="1475588200037" expanded="true" signature="30816:31051" ph="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
-            <marker date="1475588200037" expanded="true" signature="32651:32839" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('order_goods')}" />
-            <marker date="1475588200037" expanded="true" signature="32879:33137" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('order_goods')}" />
-            <marker date="1475588200037" expanded="true" signature="35043:35159" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
-            <marker date="1475588200037" expanded="true" signature="35388:35552" ph="SELECT card_... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
-            <marker date="1475588200037" expanded="true" signature="37153:37272" ph="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
-            <marker date="1475588200037" expanded="true" signature="39111:39267" ph="SELECT card_... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
-            <marker date="1475588200037" expanded="true" signature="41115:41294" ph="SELECT ext_i... ${$GLOBALS['ecs']-&gt;table('goods_activity')}" />
-            <marker date="1475588200037" expanded="true" signature="70583:70952" ph="SELECT a.att... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
-            <marker date="1475588200037" expanded="true" signature="71523:71892" ph="SELECT a.att... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
-            <marker date="1475588200037" expanded="true" signature="75444:75862" ph="SELECT pg.go... ${$GLOBALS['ecs']-&gt;table('package_goods')}" />
-            <marker date="1475588200037" expanded="true" signature="76798:76916" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
-            <marker date="1475588200037" expanded="true" signature="78467:78539" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('products')}" />
-            <marker date="1475588200037" expanded="true" signature="78635:78722" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
-            <marker date="1475588200037" expanded="true" signature="80130:80403" ph="SELECT ga.go... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1475735762790" expanded="true" signature="6211:6504" ph="SELECT type_... ${$ecs-&gt;table('bonus_type')}" />
+            <marker date="1475735762790" expanded="true" signature="7462:7656" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1475735762790" expanded="true" signature="7907:8094" ph="SELECT max(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1475735762790" expanded="true" signature="19871:19983" ph="SELECT SUM(a... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1475735762790" expanded="true" signature="20233:20754" ph="SELECT pg.go... ${$GLOBALS['ecs']-&gt;table('goods_activity')}" />
+            <marker date="1475735762790" expanded="true" signature="21122:21956" ph="SELECT pg.pa... ${$GLOBALS['ecs']-&gt;table('package_goods')}" />
+            <marker date="1475735762790" expanded="true" signature="22503:22761" ph="SELECT ga.go... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/index.dwt">
+    <entry file="file://$PROJECT_DIR$/includes/cls_ecshop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="445" column="35" selection-start-line="445" selection-start-column="35" selection-end-line="445" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/transport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16925">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1334114184000" expanded="true" signature="6846:6879" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1334114184000" expanded="true" signature="14008:14217" ph="..." />
+            <marker date="1334114184000" expanded="true" signature="22920:22951" ph="..." />
+            <marker date="1334114184000" expanded="true" signature="23074:23101" ph="..." />
+            <marker date="1334114184000" expanded="true" signature="23114:23168" ph="..." />
+            <marker date="1334114184000" expanded="true" signature="23440:23457" ph="..." />
+            <marker date="1334114184000" expanded="true" signature="23888:23905" ph="..." />
+            <marker date="1334114184000" expanded="true" signature="24526:24543" ph="..." />
+            <marker date="1334114184000" expanded="true" signature="25128:25134" ph=" " />
+            <marker date="1334114184000" expanded="true" signature="25134:25140" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/library/goods_gallery.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/library/lyk_goods_gallery.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/library/ur_here.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/default/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="245" column="17" selection-start-line="245" selection-start-column="17" selection-end-line="245" selection-end-column="17" />
+        <state relative-caret-position="398">
+          <caret line="334" column="35" selection-start-line="334" selection-start-column="35" selection-end-line="334" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/goods.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="584" column="15" selection-start-line="584" selection-start-column="1" selection-end-line="584" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/lyk_goods.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>

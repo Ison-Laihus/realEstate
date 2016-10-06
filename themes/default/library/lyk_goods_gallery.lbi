@@ -1,0 +1,21 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<ul id="lyk_gallery">
+    <!-- {foreach from=$pictures item=picture}-->
+    <li onclick="selecton(this)">
+        <img src="{if $picture.thumb_url}{$picture.thumb_url}{else}{$picture.img_url}{/if}" alt="{$goods.goods_name}"/>
+    </li>
+    <!--{/foreach}-->
+</ul>
+<script type="text/javascript">
+    var lis = document.getElementById('lyk_gallery').getElementsByTagName('li');
+    lis[0].id = 'lyk_gallery_item_on';
+    var showImg = document.getElementById('lyk_show_pic');
+
+    function selecton(e) {
+        for ( var i=0; i<lis.length; i++ ) {
+            lis[i].id = '';
+        }
+        e.id = 'lyk_gallery_item_on';
+        showImg.src = e.getElementsByTagName('img')[0].src;
+    }
+</script>

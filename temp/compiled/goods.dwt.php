@@ -42,13 +42,22 @@ function reg(str){
 <body>
 <?php echo $this->fetch('library/lyk_page_header.lbi'); ?>
 
+<!--lyk
 <div class="block box">
  <div id="ur_here">
   <?php echo $this->fetch('library/ur_here.lbi'); ?>
  </div>
 </div>
+-->
 
+<div id="lyk_position">
+    <?php echo $this->fetch('library/ur_here.lbi'); ?>
+</div>
+
+
+<!--lyk
 <div class="blank"></div>
+-->
 <div class="block clearfix">
   
   <div class="AreaL">

@@ -151,6 +151,7 @@ Template Type: type_0
     display: none;
 }
 #lyk_cart a{
+    transition: all 0.4s ease;
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
@@ -244,6 +245,94 @@ Template Type: type_0
 #lyk_help dl dd a:hover{
     text-decoration: underline;
     color: #E44087;
+}
+
+/*重改ur_here区域，即页面的link*/
+#lyk_position{
+    margin-top: 5px;
+    width: 1180px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #7fbee1;
+    padding-left: 20px;
+}
+
+/*重改商品展示区*/
+#lyk_good{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#lyk_good_img{
+    width: 400px;
+    float: left;
+}
+#lyk_good_img>img{
+    border: 1px solid #aaa;
+    width: 360px;
+    height: 400px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 8px #DDD;
+}
+#lyk_gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 400px;
+    overflow: auto;
+    margin-top: 20px;
+}
+#lyk_gallery li{
+    width: 50px;
+    margin: 5px;
+}
+#lyk_gallery li:hover{
+    outline: #5cb4e6 solid 2px;
+}
+#lyk_gallery_item_on{
+    outline: #ff9933 solid 2px;
+}
+#lyk_gallery li img{
+    width: 100%;
+}
+#lyk_textInfo{
+    float: left;
+    width: 750px;
+    margin-left: 50px;
+}
+#lyk_good_name{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#lyk_good_msg{
+    magin: 0;
+    margin-top: 10px;
+    padding: 0;
+    list-style-type: none;
+    /*display: flex;*/
+    /*flex-flow: row wrap;*/
+    /*justify-content: space-between;*/
+    /*align-content: center;*/
+    /*align-items: center;*/
+}
+#lyk_good_msg_item{
+    width: 100%;
+    overflow: auto;
+    /*height: 30px;*/
+    /*border-top: 1px solid #ccc;*/
+    margin-bottom: 20px;
+    /*display: inline-block;*/
+    /*float: left;*/
+    /*width: 40%;*/
+}
+#lyk_good_msg_item dd{
+    float: left;
+    width: 200px;
+    margin-right: 60px;
+    border-bottom: 1px dotted #ccc;
 }
 
 
